@@ -18,3 +18,19 @@ classification.
 Hence, we use Graph Neural Network.
 Graph Neural Network, as how it is called, is a neural network that can directly be applied to graphs. 
 It provides a convenient way for node-level, edge-level, and graph-level prediction tasks.
+
+## MOTIVATION OF THE PROJECT
+GNN is still a relatively new area and is worthy of more research attention. 
+It is a powerful tool to analyze graph data. Yet it is not limited to only problems in graphs. 
+It can be easily generalized to any studies that can be modeled by graphs. And graph modeling is a natural way to analyze a problem.
+
+### GNN in Natural Language Processing
+GNN is widely used in Natural Language Processing (NLP). 
+Actually, this is also where GNN initially gets started. 
+If some of you have experience in NLP, you must be thinking that text should be a type of sequential or temporal data that can be best described by an RNN or an LTSM. 
+Well, GNN approaches the problem from a completely different angle. 
+GNN utilized the inner relations of words or documents to predict the categories.
+
+### GNN in Computer Vision
+Many CNN-based methods have achieved state-of-the-art performance in object detection in images, but yet we do not know the relationships between the objects. 
+One successful employment of GNN in CV is using graphs to model the relationships between objects detected by a CNN-based detector.

@@ -19,7 +19,7 @@ Hence, we use Graph Neural Network.
 Graph Neural Network, as how it is called, is a neural network that can directly be applied to graphs. 
 It provides a convenient way for node-level, edge-level, and graph-level prediction tasks.
 
-## MOTIVATION OF THE PROJECT
+## Motivation Of The Project
 GNN is still a relatively new area and is worthy of more research attention. 
 It is a powerful tool to analyze graph data. Yet it is not limited to only problems in graphs. 
 It can be easily generalized to any studies that can be modeled by graphs. And graph modeling is a natural way to analyze a problem.

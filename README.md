@@ -114,3 +114,9 @@ This project demonstrates:
 - **Hybrid AI Workflows**: Agentic orchestration and RL evaluation.
 - **Reproducibility & Rigor**: Configs, metrics, and artifacts logged for transparency.
 - **Enterprise Relevance**: Hybrid reasoning is critical for applications in code intelligence, social analytics, and enterprise knowledge graphs.
+
+---
+
+## Registration of Copyright Cetificate (Government of India)
+
+<img width="1130" height="1866" alt="Image" src="https://github.com/user-attachments/assets/e45da324-6fdd-45b7-be52-53a05a5712e8" />

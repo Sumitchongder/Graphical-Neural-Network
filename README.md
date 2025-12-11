@@ -1,39 +1,112 @@
-## Graphical Neural Network
+# 🧠 Graph Neural Networks (GNNs)
 
-Graph neural networks (GNNs) are deep learning methods that work in the graph domain. 
-These networks have recently been applied in multiple areas including; combinatorial optimization, recommender systems, and computer vision – just to mention a few.
-These networks can also be used to model large systems such as social networks, protein-protein interaction networks, and knowledge graphs among other research areas. 
-Unlike other data such as images, graph data works in the non-Euclidean space. Graph analysis is therefore aimed at node classification, link prediction, and clustering.
+Graph Neural Networks (**GNNs**) are a class of deep learning models specifically designed to operate on **graph-structured data**. Unlike traditional neural networks that work on Euclidean data (images, sequences), GNNs can learn from **nodes**, **edges**, and **entire graph structures** making them ideal for modeling relationships, interactions, and complex dependencies.
 
-## Why Use Graphs?
-Graphs provide a better way of dealing with abstract concepts like relationships and interactions. 
-They also offer an intuitively visual way of thinking about these concepts. 
-Graphs also form a natural basis for analyzing relationships in a social context.
-Graphs can solve more complex problems by simplifying the problems into simpler representations or transforming the problems into representations from different perspectives.
+<img width="2048" height="1152" alt="Image" src="https://github.com/user-attachments/assets/92555035-9c97-4d25-bdf0-10f9a27ae68f" />
 
-## Traditional Graph Analysis Methods:
-The limitation of such algorithms is that we need to gain prior knowledge of the graph at certain confidence before we can apply the algorithm. 
-In other words, it provides no means for us to study the graph itself. And most importantly, there is no way to perform graph level 
-classification.
-Hence, we use Graph Neural Network.
-Graph Neural Network, as how it is called, is a neural network that can directly be applied to graphs. 
-It provides a convenient way for node-level, edge-level, and graph-level prediction tasks.
+---
 
-## Motivation Of The Project
-GNN is still a relatively new area and is worthy of more research attention. 
-It is a powerful tool to analyze graph data. Yet it is not limited to only problems in graphs. 
-It can be easily generalized to any studies that can be modeled by graphs. And graph modeling is a natural way to analyze a problem.
+## 🌐 Why Graphs?
 
-### GNN in Natural Language Processing
-GNN is widely used in Natural Language Processing (NLP). 
-Actually, this is also where GNN initially gets started. 
-If some of you have experience in NLP, you must be thinking that text should be a type of sequential or temporal data that can be best described by an RNN or an LTSM. 
-Well, GNN approaches the problem from a completely different angle. 
-GNN utilized the inner relations of words or documents to predict the categories.
+Graphs offer a powerful way to represent **abstract relationships** and **interconnected systems**.
+They serve as a natural structure for:
 
-### GNN in Computer Vision
-Many CNN-based methods have achieved state-of-the-art performance in object detection in images, but yet we do not know the relationships between the objects. 
-One successful employment of GNN in CV is using graphs to model the relationships between objects detected by a CNN-based detector.
+* Social networks
+* Molecular structures & protein interactions
+* Knowledge graphs
+* Communication networks
+* Recommendation systems
+
+Graphs allow us to model *entities* and *relationships* intuitively, enabling flexible and expressive learning frameworks.
+
+---
+
+## 🏛️ Traditional Graph Analysis vs. GNNs
+
+Traditional graph algorithms (PageRank, BFS, community detection, etc.) often require:
+
+* Extensive domain knowledge
+* Manual feature engineering
+* Limited generalization to graph-level tasks
+
+They **cannot** natively support:
+
+❌ Graph-level classification
+❌ End-to-end feature learning
+❌ Adaptive representation learning
+
+This is where GNNs excel.
+
+---
+
+## 🚀 Why Graph Neural Networks?
+
+GNNs make it possible to perform:
+
+### 🔹 Node-Level Predictions
+
+(e.g., node classification, fraud detection)
+
+### 🔹 Edge-Level Predictions
+
+(e.g., link prediction, recommendation systems)
+
+### 🔹 Graph-Level Predictions
+
+(e.g., molecule classification, program analysis)
+
+They enable **end-to-end learning**, automatically extracting topological features and relational patterns **without manual feature engineering**.
+
+---
+
+# 🎯 Project Motivation
+
+Graph Neural Networks are still rapidly evolving and represent one of the most exciting frontiers in deep learning research. Their ability to generalize to any problem that can be represented as a graph makes them extremely powerful.
+
+This project aims to:
+
+* Explore modern GNN architectures
+* Understand how graph representations enhance learning
+* Apply GNNs to real-world tasks across NLP, CV, and structured data
+* Build an industrial-grade GNN pipeline for research & deployment
+
+---
+
+# 📝 Applications of GNNs
+
+## 📚 1. GNNs in Natural Language Processing (NLP)
+
+Although text is fundamentally sequential, GNNs approach NLP from a **relational** perspective. Instead of relying on RNNs/LSTMs, GNNs model:
+
+* Word co-occurrence graphs
+* Dependency parse trees
+* Document relationship graphs
+
+This enables richer context understanding and improved classification performance.
+
+---
+
+## 🖼️ 2. GNNs in Computer Vision (CV)
+
+CNNs excel at **object detection**, but they lack the ability to capture relationships between objects.
+
+GNNs complement CNNs by:
+
+* Building graphs over detected objects
+* Learning inter-object relationships
+* Enhancing scene understanding
+* Improving tasks like VQA, action recognition, and object grouping
+
+This combination unlocks **context-aware vision models**.
+
+---
+
+# 📦 Summary
+
+Graph Neural Networks bridge the gap between **structured relationships** and **deep learning**, providing a unified framework for complex real-world data.
+With applications across NLP, CV, biology, and networks, GNNs continue to be one of the most influential innovations in modern AI research.
+
+---
 
 # 🔗 Hybrid GNN + LLM Fine‑Tuning Pipeline
 

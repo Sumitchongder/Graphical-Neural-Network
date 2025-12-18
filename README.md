@@ -2,7 +2,9 @@
 
 Graph Neural Networks (**GNNs**) are a class of deep learning models specifically designed to operate on **graph-structured data**. Unlike traditional neural networks that work on Euclidean data (images, sequences), GNNs can learn from **nodes**, **edges**, and **entire graph structures** making them ideal for modeling relationships, interactions, and complex dependencies.
 
-<img width="2048" height="1152" alt="Image" src="https://github.com/user-attachments/assets/92555035-9c97-4d25-bdf0-10f9a27ae68f" />
+<p align="center">
+  <img width="800" height="500" alt="Image" src="https://github.com/user-attachments/assets/92555035-9c97-4d25-bdf0-10f9a27ae68f" />
+</p>
 
 ---
 
@@ -124,7 +126,9 @@ The pipeline combines:
 
 ## Registration of Copyright Certificate (Government of India)
 
-<img width="1130" height="1866" alt="Image" src="https://github.com/user-attachments/assets/e45da324-6fdd-45b7-be52-53a05a5712e8" />
+<p align="center">
+  <img width="700" height="1100" alt="Image" src="https://github.com/user-attachments/assets/e45da324-6fdd-45b7-be52-53a05a5712e8" />
+</p>
 
 ---
 
